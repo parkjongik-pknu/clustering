@@ -5,8 +5,6 @@ This repository contains R codes about Gaussian Mixture Model(GMM) and Cluster-W
 
 * **CWM** is a clustering method about the relationship between a response variable $Y$ and explanatory variables $X$. While GMM focuses on the distribution of $X$, CWM focuses on the joint probability distribution $f(x,y)$
 
-This repository contains GMM and CWM implementation in R.
-
 <br>
 
 * **HOW TO INSTALL AND LOAD:**
