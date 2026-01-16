@@ -4,11 +4,6 @@
 # ============================================================
 
 
-if (!requireNamespace("mvtnorm", quietly = TRUE)) stop("install.packages('mvtnorm')")
-if (!requireNamespace("cluster", quietly = TRUE)) stop("install.packages('cluster')")
-library(mvtnorm)
-library(cluster)
-
 # ------------------------------------------------------------
 # em algorithm
 # ------------------------------------------------------------
@@ -157,5 +152,6 @@ plot_gmm <- function(res){
   
   par(mfrow=c(1,1))
 }
+
 
 
