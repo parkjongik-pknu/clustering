@@ -120,12 +120,12 @@ gmm_em <- function(X, K, max_iter=200, tol=1e-6,
 # ------------------------------------------------------------
 clustering_gmm <- function(X, g=6, max_iter=200, tol=1e-6, init_methods="kmeans"){
   
-  dat <- as.matrix(dat)
+  X <- as.matrix(X)
   Ks <- 2:g
   
   fits <- lapply(Ks, function(K){
     cat(sprintf("Fitting GMM (K=%d)...\n", K))
-    gmm_em(dat, K, max_iter, tol)
+    gmm_em(X, K, max_iter, tol)
   })
   
   bics <- sapply(fits, `[[`, "bic")
@@ -157,4 +157,5 @@ plot_gmm <- function(res){
   
   par(mfrow=c(1,1))
 }
+
 
