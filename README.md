@@ -1,9 +1,10 @@
 # Clustering Methods
 
 This repository contains R codes about Gaussian Mixture Model(GMM) and Cluster-Weighted Model(CWM).
-* **GMM** is a probabilistic clustering method by assuming distribution to the covariates. Each observation have probability of being included in each cluster. This leads better performance than distance-based clustering methods(like K-means).
+* **GMM** is a probabilistic clustering method that assumes a mixture distribution for the covariates. Each observation is assigned a probability of beloning to each cluster, rather than being deterministically assigned to a single cluster. This probabilistic framework often provides greater flexibility than distance-based clustering methods such as K-means.
 
-* **CWM** is a clustering method about the relationship between a response variable $Y$ and explanatory variables $X$. While GMM focuses on the distribution of $X$, CWM focuses on the joint probability distribution $f(x,y)$
+* **CWM** is a model-based clustering approach that focuses on the relationship between a response variable $Y$ and explanatory variables $X$. While GMM models only the marginal distribution of $X$, CWM models the joint probability distribution $f(x,y)$, allowing cluster-specific relationships between $X$ and $Y$
+
 
 <br>
 
