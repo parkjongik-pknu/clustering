@@ -33,7 +33,7 @@ clustering_gmm(X, g=6, max_iter=200, tol=1e-6, init_method="kmeans")
 
 X : Data you want to use in clustering analysis(explanatory variables)
 
-g : The number of cluster(if you choose 6, there is one cluster, two clusters, ... up to six clusters)
+g : The number of clusters (tests 1 to $g$ clusters by BIC)
 
 init_methods : you can choose "kmeans", "kmedoids", "heirarchical"
 ```
@@ -50,7 +50,7 @@ X : a explanatory variables you want to use in clustering analysis
 
 Y : response variables you want to use in clustering analysis
 
-g : The number of cluster(if you choose 6, there is one cluster, two clusters, ... up to six clusters)
+g : The number of clusters (tests 1 to $g$ clusters by BIC)
 
 init_methods : you can choose "kmeans", "kmedoids", "heirarchical"
 ```
