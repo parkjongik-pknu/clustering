@@ -118,7 +118,7 @@ gmm_em <- function(X, K, max_iter=200, tol=1e-6,
 # ------------------------------------------------------------
 # choose best model
 # ------------------------------------------------------------
-clustering_gmm <- function(dat, g=6, max_iter=200, tol=1e-6, init_methods="kmeans"){
+clustering_gmm <- function(X, g=6, max_iter=200, tol=1e-6, init_methods="kmeans"){
   
   dat <- as.matrix(dat)
   Ks <- 2:g
@@ -157,3 +157,4 @@ plot_gmm <- function(res){
   
   par(mfrow=c(1,1))
 }
+
