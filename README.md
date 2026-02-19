@@ -34,7 +34,7 @@ X : Data you want to use in clustering analysis(explanatory variables)
 
 g : The number of clusters (tests 1 to g clusters by BIC)
 
-init_methods : you can choose "kmeans", "kmedoids", "heirarchical"
+init_methods : choose "kmeans", "kmedoids", "heirarchical"
 ```
 
 <br>
@@ -45,11 +45,11 @@ In **CWM**
 ```
 clustering_cwm(X, Y, g=6, max_iter=200, tol=1e-6, init_method="kmeans")
 
-X : a explanatory variables you want to use in clustering analysis
+X : explanatory variables you want to use in clustering analysis
 
-Y : response variables you want to use in clustering analysis
+Y : a response variable you want to use in clustering analysis
 
 g : The number of clusters (tests 1 to g clusters by BIC)
 
-init_methods : you can choose "kmeans", "kmedoids", "heirarchical"
+init_methods : choose "kmeans", "kmedoids", "heirarchical"
 ```
