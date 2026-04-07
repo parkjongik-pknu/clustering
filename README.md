@@ -34,7 +34,7 @@ X : Data you want to use in clustering analysis(explanatory variables)
 
 g : The number of clusters (tests 1 to g clusters by BIC)
 
-init_methods : choose "kmeans", "kmedoids", "heirarchical"
+init_methods : choose "kmeans", "kmedoids", "hierarchical"
 ```
 
 <br>
@@ -51,5 +51,5 @@ Y : a response variable you want to use in clustering analysis
 
 g : The number of clusters (tests 1 to g clusters by BIC)
 
-init_methods : choose "kmeans", "kmedoids", "heirarchical"
+init_methods : choose "kmeans", "kmedoids", "hierarchical"
 ```
